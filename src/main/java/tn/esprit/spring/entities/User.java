@@ -29,6 +29,7 @@ public class User implements Serializable {
 	
 	private String lastName;
 	 private String email;//ajouter sur mabranch
+	
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
 	
