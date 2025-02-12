@@ -28,8 +28,13 @@ public class User implements Serializable {
 	private String firstName; 
 	
 	private String lastName;
+
 	private  String numberph;
 	private  String address;
+
+	 private String email;//ajouter sur mabranch
+	private  int identifier;
+
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
 	
